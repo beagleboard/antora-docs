@@ -1,0 +1,15 @@
+# Mainly for testing standalone version of the site.
+# Going to just a component in mult-repo docsite in the future.
+
+site:
+  title: BeagleBoard Imaging Utility
+  start_page: bb-imager::index.adoc
+content:
+  sources:
+  - url: ../bb-imager-docs
+    start_paths: docs
+    branches: HEAD
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
