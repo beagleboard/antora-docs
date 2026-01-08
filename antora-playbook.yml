@@ -3,14 +3,28 @@
 
 site:
   title: BeagleBoard Imaging Utility
-  start_page: bb-imager::index.adoc
+  start_page: home::index.adoc
+
 content:
   sources:
+  - url: .
+    start_paths: home
+    branches: HEAD
+
   - url: ../bb-imager-docs
     start_paths: docs
     branches: HEAD
+
+  - url: ../zephyr-workspace/greybus/modules/lib/greybus
+    start_paths: docs
+    branches: HEAD
+
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files: ./supplemental-ui
+
+antora:
+  extensions:
+  - '@antora/pdf-extension'
