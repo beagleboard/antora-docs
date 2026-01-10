@@ -1,3 +1,4 @@
+= BeagleBoard Documentation
 :page-role: landing
 
 == Tools

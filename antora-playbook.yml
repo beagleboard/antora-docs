@@ -2,7 +2,7 @@
 # Going to just a component in mult-repo docsite in the future.
 
 site:
-  title: BeagleBoard Imaging Utility
+  title: BeagleBoard Documentation
   start_page: home::index.adoc
 
 content:
