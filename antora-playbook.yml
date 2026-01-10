@@ -11,17 +11,19 @@ content:
     start_paths: home
     branches: HEAD
 
-  - url: ../bb-imager-docs
+  - url: https://github.com/beagleboard/bb-imager-rs.git
     start_paths: docs
-    branches: HEAD
+    tags: [0.0.18]
+    branches: ~
+    # branches: HEAD
 
-  - url: ../zephyr-workspace/greybus/modules/lib/greybus
+  - url: https://github.com/beagleboard/greybus-zephyr.git
     start_paths: docs
     branches: HEAD
 
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/beagleboard/antora-ui-beagle/releases/download/continuous-release/ui-bundle.zip
     snapshot: true
   supplemental_files: ./supplemental-ui
 
