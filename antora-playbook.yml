@@ -30,3 +30,4 @@ ui:
 antora:
   extensions:
   - '@antora/pdf-extension'
+  - '@antora/lunr-extension'
