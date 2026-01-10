@@ -1,0 +1,4 @@
+component_version_filter:
+  names:
+    - '*'
+    - '!home'
