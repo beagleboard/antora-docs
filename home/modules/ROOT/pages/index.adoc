@@ -1,6 +1,10 @@
 = BeagleBoard Documentation
 :page-role: landing
 
+== Boards
+
+* xref:pocketbeagle-2::index.adoc[]
+
 == Tools
 
 * xref:bb-imager::index.adoc[]

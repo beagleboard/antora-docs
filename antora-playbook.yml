@@ -15,11 +15,15 @@ content:
     start_paths: docs
     tags: [0.0.18]
     branches: ~
-    # branches: HEAD
 
   - url: https://github.com/beagleboard/greybus-zephyr.git
     start_paths: docs
     branches: HEAD
+
+  - url: https://github.com/beagleboard/PocketBeagle-2-Docs.git
+    branches: 
+      - "A0"
+      - "A1"
 
 ui:
   bundle:
