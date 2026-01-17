@@ -3,3 +3,12 @@ version: ~
 title: Home
 nav:
 - modules/ROOT/nav.adoc
+
+asciidoc:
+  attributes:
+    page-boards: 
+      - pocketbeagle-2
+    page-tools:
+      - bb-imager
+    page-projects:
+      - greybus-zephyr
