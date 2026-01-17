@@ -13,7 +13,7 @@ content:
 
   - url: https://github.com/beagleboard/bb-imager-rs.git
     start_paths: docs
-    tags: [0.0.18]
+    tags: [0.0.19]
     branches: ~
 
   - url: https://github.com/beagleboard/greybus-zephyr.git

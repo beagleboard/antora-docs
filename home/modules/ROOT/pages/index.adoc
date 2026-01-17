@@ -1,14 +1,2 @@
 = BeagleBoard Documentation
-:page-role: landing
-
-== Boards
-
-* xref:pocketbeagle-2::index.adoc[]
-
-== Tools
-
-* xref:bb-imager::index.adoc[]
-
-== Projects
-
-* xref:greybus-zephyr::index.adoc[]
+:page-layout: start
