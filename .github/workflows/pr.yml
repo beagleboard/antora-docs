@@ -22,8 +22,7 @@ jobs:
           npm install --quiet --no-progress
 
       - name: Build preview
-        run: |
-          npx antora antora-playbook.yml
+        run: npx antora antora-playbook.yml --fetch --stacktrace
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4

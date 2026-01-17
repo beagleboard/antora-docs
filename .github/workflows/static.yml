@@ -40,9 +40,7 @@ jobs:
           npm install --quiet --no-progress
 
       - name: Build preview
-        run: |
-          npx antora antora-playbook.yml
-
+        run: npx antora antora-playbook.yml --fetch --stacktrace
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
