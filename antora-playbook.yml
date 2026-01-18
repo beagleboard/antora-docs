@@ -35,3 +35,7 @@ antora:
   extensions:
   - '@antora/pdf-extension'
   - '@antora/lunr-extension'
+
+asciidoc:
+  attributes:
+    page-pagination: ''
