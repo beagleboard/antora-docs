@@ -1,2 +1,3 @@
-= BeagleBoard Documentation
 :page-layout: start
+
+image::banner.webp[align="center"]
