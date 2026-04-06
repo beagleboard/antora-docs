@@ -5,5 +5,9 @@
   },
   "dependencies": {
     "@antora/lunr-extension": "^1.0.0-alpha.12"
+  },
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "preview": "npm run build && python -m http.server --directory build/site 8000"
   }
 }
