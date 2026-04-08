@@ -2,3 +2,11 @@ component_version_filter:
   names:
     - '*'
     - '!home'
+
+assembly:
+  section_merge_strategy: enclose
+  attributes:
+    toc: ''
+    sectnums: true
+    pdf-theme: ./node_modules/@beagleboard/antora-ui/pdf-theme.yml
+    source-highlighter: rouge
